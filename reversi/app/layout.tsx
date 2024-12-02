@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="overflow-y-scroll bg-base-100">
       <body
         className={`antialiased`}
       >
